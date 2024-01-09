@@ -1,30 +1,27 @@
 import styled from "styled-components";
 
 export const StyledSection = styled.div`
-    background-color:black;
-    width: 100%;
-    max-width: 1128px;
-    margin: 0 auto;
-    padding: 0 15px;
+  background-color: black;
+  width: 100%;
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 0 15px;
 
-
-@media screen and (min-width: 1200px){
+  @media screen and (min-width: 1200px) {
     max-width: 1140px;
-}
-@media screen and  (min-width: 992px) and (max-width:1199px){
+  }
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
     max-width: 960px;
-}
-@media screen and  (min-width: 768px) and (max-width:991px){
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
     max-width: 720px;
-}
-@media screen and (max-width: 576px){
+  }
+  @media screen and (max-width: 576px) {
     max-width: 540px;
-}
+  }
 `;
 
-export const StyledWrapper = styled.div`
-    
-`;
+export const StyledWrapper = styled.div``;
 
 export const StyledInnerWrapper = styled.div`
   display: flex;
@@ -88,10 +85,9 @@ export const StyledAboutMeDescription = styled.div`
 
   @media screen and (max-width: 767px) {
     font-size: 14px;
-    text-align:center;
+    text-align: center;
     line-height: 2.21;
     margin-top: 10px;
-
   }
 `;
 
