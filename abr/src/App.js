@@ -1,12 +1,14 @@
 import React from "react";
-import { ArtByRaff } from "./components/ArtByRaff/ArtByRaff";
+import { Original } from "./components/Original/Original";
+// import { ArtByRaff } from "./components/ArtByRaff/ArtByRaff";
 // import { AboutMe } from './components/AboutMe/AboutMe';
 
 const App = () => {
   return (
     <div>
       {/* <AboutMe/> */}
-      <ArtByRaff />
+      {/* <ArtByRaff /> */}
+      <Original />
     </div>
   );
 };
