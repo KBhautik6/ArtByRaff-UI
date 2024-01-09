@@ -111,12 +111,15 @@ export const StyledInnerHomeProducts = styled.div`
 export const StyledHomeProductGird = styled.div`
   margin: 0;
   padding: 0;
+  
 `;
 
 export const StyledHomeProductsList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   list-style: disc;
+  transition: opacity 1s ease;
+    transition: all .4s ease-in-out;
 
   @media screen and (max-width: 767px) {
     margin-left: 7%;
@@ -155,6 +158,7 @@ export const StyledProductImageWrapper = styled.div`
 
 export const StyledProductImageLink = styled.a`
   color: #96588a;
+  text-decoration:none;
 `;
 
 export const StyledProductImage = styled.img`
@@ -179,6 +183,7 @@ export const StyledProductNameImage = styled.a`
   font-family: Graphik;
   font-size: 14px;
   color: #ffffff;
+  text-decoration:none;
   text-transform: uppercase;
 `;
 
@@ -201,4 +206,5 @@ export const StyledProductCategory = styled.div`
 
 export const StyledProductSize = styled.div`
   margin-top: 5px;
+  color: #919191;
 `;
