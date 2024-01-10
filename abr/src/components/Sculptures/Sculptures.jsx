@@ -1,43 +1,44 @@
 import React from "react";
 import {
   StyledSection,
-  StyledHandPaintingWrapper,
-  StyledHandPaintingInner,
-  StyledProductContainer,
+  StyledWrapper,
+  StyledInnerWrapper,
   StyledHeadingWrapper,
-  StyledHeadingInner,
-  StyledHeadingTitle,
+  StyledTitle,
   StyledHeading,
+  StyledViewMore,
+  StyledBoxWrapper,
+  StyledBtn,
+} from "./Sculptures.styled";
+
+import {
   StyledHomeProducts,
   StyledInnerHomeProducts,
   StyledHomeProductGird,
   StyledHomeProductsList,
-} from "./Original.styled";
-import { MoreInfo } from "./MoreInfo";
-import { Data } from "./Data";
+} from "../Original/Original.styled";
 
-export const Original = () => (
-  <>
-    <StyledSection>
-      <StyledHandPaintingWrapper>
-        <StyledHandPaintingInner>
-          <StyledProductContainer>
+import { SData } from "../Original/Data";
+import { MoreInfo } from "../Original/MoreInfo";
+
+export const Sculptures = () => {
+  return (
+    <>
+      <StyledSection>
+        <StyledWrapper>
+          <StyledInnerWrapper>
             <StyledHeadingWrapper>
-              <StyledHeadingInner>
-                <StyledHeadingTitle>ORIGNALS</StyledHeadingTitle>
-                <StyledHeading>
-                  <p>ON CANVAS</p>
-                </StyledHeading>
-              </StyledHeadingInner>
+              <StyledTitle>
+                <p>ART BY RAFF</p>
+              </StyledTitle>
+              <StyledHeading>Sculptures & furniture</StyledHeading>
             </StyledHeadingWrapper>
-
-            {/* Props section is going to start */}
 
             <StyledHomeProducts>
               <StyledInnerHomeProducts>
                 <StyledHomeProductGird>
                   <StyledHomeProductsList>
-                    {Data.map((item) => (
+                    {SData.map((item) => (
                       <MoreInfo
                         key={item.id}
                         dlink={item.dlink}
@@ -46,16 +47,21 @@ export const Original = () => (
                         dproductname={item.dproductname}
                         dprice={item.dprice}
                         dproductinfo={item.dproductinfo}
-                        dsize={item.dsize}
                       />
                     ))}
                   </StyledHomeProductsList>
                 </StyledHomeProductGird>
               </StyledInnerHomeProducts>
             </StyledHomeProducts>
-          </StyledProductContainer>
-        </StyledHandPaintingInner>
-      </StyledHandPaintingWrapper>
-    </StyledSection>
-  </>
-);
+
+            <StyledViewMore>
+              <StyledBoxWrapper>
+                <StyledBtn>Load More</StyledBtn>
+              </StyledBoxWrapper>
+            </StyledViewMore>
+          </StyledInnerWrapper>
+        </StyledWrapper>
+      </StyledSection>
+    </>
+  );
+};

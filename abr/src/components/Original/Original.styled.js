@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export const StyledSection = styled.div`
+export const StyledSection = styled.section`
   display: block;
-  background-color: black;
+  background-color: #161515;
 `;
 
 export const StyledHandPaintingWrapper = styled.div`
@@ -111,15 +111,11 @@ export const StyledInnerHomeProducts = styled.div`
 export const StyledHomeProductGird = styled.div`
   margin: 0;
   padding: 0;
-  
 `;
 
 export const StyledHomeProductsList = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  list-style: disc;
-  transition: opacity 1s ease;
-    transition: all .4s ease-in-out;
 
   @media screen and (max-width: 767px) {
     margin-left: 7%;
@@ -127,14 +123,20 @@ export const StyledHomeProductsList = styled.ul`
 `;
 
 export const StyledProductList = styled.li`
-  border: 1px solid #ddd;
-  width: 20%;
-  margin: 64px 65px 64px 0;
+  border: 1px solid #ffffff;
+  width: 25%; /* Set width to 25% to display 4 products in a row */
+  margin: 64px 6px 64px 0; /* Adjust margins as needed */
+
   min-width: 247px;
   min-height: 362px;
   position: relative;
   transition: opacity 1s ease;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    border-color: #ddd;
+    transform: translateY(-30px); /* Adjust the value as needed */
+  }
 
   @media screen and (max-width: 767px) {
     margin: 64px auto;
@@ -158,7 +160,7 @@ export const StyledProductImageWrapper = styled.div`
 
 export const StyledProductImageLink = styled.a`
   color: #96588a;
-  text-decoration:none;
+  text-decoration: none;
 `;
 
 export const StyledProductImage = styled.img`
@@ -183,7 +185,7 @@ export const StyledProductNameImage = styled.a`
   font-family: Graphik;
   font-size: 14px;
   color: #ffffff;
-  text-decoration:none;
+  text-decoration: none;
   text-transform: uppercase;
 `;
 

@@ -13,8 +13,6 @@ import {
   StyledProductSize,
 } from "./Original.styled";
 
-// import Data from "./Data";
-
 export function MoreInfo(props) {
   return (
     <div>
@@ -22,7 +20,7 @@ export function MoreInfo(props) {
         <StyledProductBox>
           {/* Product Image section */}
           <StyledProductImageWrapper>
-            <StyledProductImageLink href={props.dlink} >
+            <StyledProductImageLink href={props.dlink}>
               <StyledProductImage src={props.dproductimage} alt="" />
             </StyledProductImageLink>
           </StyledProductImageWrapper>
