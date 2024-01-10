@@ -385,3 +385,96 @@ export const StyledInstagramLink = styled.a`
   width: 40px;
   line-height: 40px;
 `;
+
+export const StyledCopywriteWrapper=styled.div`
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    background-color: transparent;
+    padding: 14px 0;
+`
+
+export const StyledCopywritecontainer=styled.div`
+    width: 100%;
+    max-width: 1128px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media (min-width: 1200px) {
+    max-width: 1140px;
+}
+@media screen and (min-width:767px)and (max-width: 992px){
+    max-width: 960px;
+}
+@media screen and (min-width:576px) and  (max-width: 768px){
+    max-width: 720px;
+}
+@media screen and (max-width: 576px){
+    max-width: 540px;
+}
+`
+
+export const StyleCopywriteInner=styled.div`
+    align-items: center!important;
+    justify-content: space-between!important;display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+`
+
+export const StyleYearWrapper=styled.div`
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+`
+
+export const StyledYear =styled.p`
+font-family: Graphik-Light;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2.56;
+    text-align: left;
+    color: #d5d5d5;
+`
+
+
+export const StyledABRLink=styled.a`
+    font-family: Graphik-Light;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2.56;
+    text-align: left;
+    color: #d5d5d5; 
+`
+
+export const StyledFootCopy=styled.div`
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+`
+
+export const StyledDesignAndDevelopment=styled.div`
+    font-family: Graphik-Light;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2.56;
+    text-align: left;
+    color: #d5d5d5;
+`
+
+export const StyledHeartIcon=styled.span`
+margin:0;
+`
+
+
+export const StyledDesignAndDevelopmentLink=styled.a`
+font-family: Graphik-Light;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 2.56;
+    text-align: left;
+    color: #d5d5d5;
+`
+

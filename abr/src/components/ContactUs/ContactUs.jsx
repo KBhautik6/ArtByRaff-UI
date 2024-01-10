@@ -23,6 +23,7 @@ import {
   StyledFooterMain,
 } from "./ContactUs.styled";
 import { Footer } from "./Footer/Footer";
+import { CopyWrite } from "./CopyWrite/CopyWrite";
 
 export const ContactUs = () => {
   return (
@@ -109,6 +110,7 @@ export const ContactUs = () => {
           </div>
         </StyledWrapper>
       </section>
+      <CopyWrite/>
     </>
   );
 };
