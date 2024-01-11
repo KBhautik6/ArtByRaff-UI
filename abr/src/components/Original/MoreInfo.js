@@ -11,6 +11,7 @@ import {
   StyledProductPrice,
   StyledProductCategory,
   StyledProductSize,
+  StyledAddtoBtn,
 } from "./Original.styled";
 
 export function MoreInfo(props) {
@@ -18,14 +19,11 @@ export function MoreInfo(props) {
     <div>
       <StyledProductList>
         <StyledProductBox>
-          {/* Product Image section */}
           <StyledProductImageWrapper>
             <StyledProductImageLink href={props.dlink}>
               <StyledProductImage src={props.dproductimage} alt="" />
             </StyledProductImageLink>
           </StyledProductImageWrapper>
-
-          {/* Product more information */}
           <StyledProductMoreInformation>
             <StyledProductName>
               <StyledProductNameImage href={props.dimagelink}>
@@ -37,6 +35,9 @@ export function MoreInfo(props) {
             </StyledProductPrice>
             <StyledProductCategory>{props.dproductinfo}</StyledProductCategory>
             <StyledProductSize>{props.dsize}</StyledProductSize>
+            {props.dsvg && (
+              <StyledAddtoBtn>{props.addToCartbtn}</StyledAddtoBtn>
+            )}
           </StyledProductMoreInformation>
         </StyledProductBox>
       </StyledProductList>

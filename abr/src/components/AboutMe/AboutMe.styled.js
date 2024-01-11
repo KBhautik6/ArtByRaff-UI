@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { GlobalStyles } from "../GlobalStyle.styled";
 
 export const StyledSection = styled.div`
   background-color: black;
@@ -58,7 +59,7 @@ export const StyledRightAboutMe = styled.div`
 `;
 
 export const StyledHeading = styled.div`
-  font-family: Graphik-Bold;
+  font-family: "Graphik-Bold";
   font-size: 36px;
   font-weight: bold;
   line-height: 2.25;
@@ -74,7 +75,7 @@ export const StyledHeading = styled.div`
 `;
 
 export const StyledAboutMeDescription = styled.div`
-  font-family: Graphik-Light;
+  font-family: "Graphik-Light";
   font-size: 16px;
   font-weight: 300;
   line-height: 1.94;
@@ -101,7 +102,7 @@ export const StyledSignatureWrapper = styled.div`
 `;
 
 export const StyledSignature = styled.div`
-  font-family: Graphik;
+  font-family: "Graphik";
   font-size: 16px;
   line-height: 5.06;
   text-align: left;

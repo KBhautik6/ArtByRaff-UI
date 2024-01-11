@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { GlobalStyles } from "../GlobalStyle.styled";
 
 export const StyledCommonFlex = css`
   display: flex;
@@ -6,7 +7,7 @@ export const StyledCommonFlex = css`
   margin: 0 -15px;
 `;
 
-export const StyledSection = styled.div`
+export const StyledSection = styled.section`
   background: url("https://artbyraff.com/wp-content/themes/storefront-child-theme-master/assets/images/bgIntroduction.jpg")
     no-repeat;
   height: 682px;
@@ -28,6 +29,7 @@ export const StyledSection = styled.div`
 export const StyledWrapper = styled.div`
   width: 100%;
   max-width: 1128px;
+  margin: 0 auto;
 
   @media screen and (min-width: 1200px) {
     max-width: 1140px;
@@ -48,7 +50,7 @@ export const StyledHeadingWrapper = styled.div`
 `;
 
 export const StyledHeadingWelcome = styled.div`
-  font-family: Graphik-Semibold;
+  font-family: "Graphik-Semibold";
   font-size: 88px;
   font-weight: 600;
   line-height: 0.51;
@@ -69,16 +71,16 @@ export const StyledHeadingWelcome = styled.div`
 `;
 
 export const StyledHeadingABR = styled.div`
-  padding: 0;
-  margin-left: 124px;
   font-family: Graphik-Super;
   font-size: 102px;
   line-height: 0.98;
-  letter-spacing: 19.38px;
+  letter-spacing: 14.38px;
   color: #4b4b4b;
   text-transform: uppercase;
+  margin-bottom: 0;
   position: relative;
-  left: -110px;
+  left: -60px;
+  top: -100px;
 
   @media screen and (max-width: 767px) {
     font-size: 21px;
@@ -102,7 +104,7 @@ export const StyledDescription = styled.div`
   border-left: 5px solid #d8cf91;
   padding: 0 67px;
   max-width: 967px;
-  font-family: Graphik-Light;
+  font-family: "Graphik-Light";
   font-size: 22px;
   font-weight: 300;
   line-height: 1.77;

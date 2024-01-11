@@ -27,7 +27,7 @@ export const StyledHeadingWrapper = styled.div`
 `;
 
 export const StyledTitle = styled.div`
-  font-family: Graphik-Semibold;
+  font-family: "Graphik-Semibold";
   font-size: 88px;
   font-weight: 600;
   line-height: 0.51;
@@ -36,7 +36,7 @@ export const StyledTitle = styled.div`
   color: #1c1b1c;
   position: relative;
   left: -18px;
-  top: 30px;
+  top: 94px;
   width: 100%;
 
   @media screen and (max-width: 767px) {
@@ -49,7 +49,7 @@ export const StyledTitle = styled.div`
 `;
 
 export const StyledHeading = styled.div`
-  font-family: Graphik-Super;
+  font-family: "Graphik-Super";
   font-size: 102px;
   line-height: 0.98;
   letter-spacing: 19.38px;
@@ -70,14 +70,11 @@ export const StyledHeading = styled.div`
   }
 `;
 
-export const StyledViewMore = styled.div`
-  margin: 0px;
-`;
+export const StyledViewMore = styled.div``;
 
 export const StyledBoxWrapper = styled.div`
   display: flex;
   justify-content: center;
-  text-align: center !important;
 `;
 
 export const StyledBtn = styled.div`
@@ -86,4 +83,37 @@ export const StyledBtn = styled.div`
   padding: 15px 30px;
   width: 200px;
   color: #fff;
+  cursor: pointer;
+`;
+
+export const StyledProductSculphturesList = styled.li`
+  border: 1px solid #ffffff;
+  width: 40%;
+  margin: 64px 55px 64px 0;
+  min-width: 247px;
+  min-height: 362px;
+  position: relative;
+  transition: opacity 1s ease;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    border-color: #ddd;
+    transform: translateY(-30px);
+  }
+
+  @media screen and (max-width: 767px) {
+    margin: 64px auto;
+  }
+`;
+
+export const StyledHomeProductsList = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;

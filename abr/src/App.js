@@ -1,17 +1,22 @@
 import React from "react";
-import { Original } from "./components/Original/Original";
-import { Sculptures } from "./components/Sculptures/Sculptures";
-// import { ArtByRaff } from "./components/ArtByRaff/ArtByRaff";
-// import { AboutMe } from './components/AboutMe/AboutMe';
-
+import { Header } from "../src/components/Header/Header";
+import { GlobalStyles } from "../src/components/GlobalStyle.styled";
+import { Slider } from "../src/components/Slider/Slider";
+import "../src/App.css";
+import { Route, Routes } from "react-router";
+import { AboutMe } from "./components/AboutMe/AboutMe";
 const App = () => {
   return (
-    <div>
-      {/* <AboutMe/> */}
-      {/* <ArtByRaff /> */}
-      <Original />
-      <Sculptures />
-    </div>
+    <>
+      <div className="App">
+        <GlobalStyles />
+        <Slider />
+        <Routes>
+          <Route path="/" element={<Header />}></Route>
+          <Route path="about" element={<AboutMe />}></Route>
+        </Routes>
+      </div>
+    </>
   );
 };
 

@@ -16,6 +16,12 @@ import {
   StyledInputTelephone,
   StyledInputEmail,
   StyledInputElse,
+  StyledCheckBoxInner,
+  StyledTextInnerWrapper,
+  StyledInputCheckBox,
+  StyledCheckBoxText,
+  StyledSendBtnWrapper,
+  StyledInputBtn,
   StyledFooterSection,
   StyledFooterWrapper,
   StyledFooterInner,
@@ -23,7 +29,6 @@ import {
   StyledFooterMain,
 } from "./ContactUs.styled";
 import { Footer } from "./Footer/Footer";
-import { CopyWrite } from "./CopyWrite/CopyWrite";
 
 export const ContactUs = () => {
   return (
@@ -38,10 +43,10 @@ export const ContactUs = () => {
                     <p>COMMISSIONS</p>
                   </StyledTitle>
                   <StyledHeading>
-                    ARE YOU INTERESTED IN PURCHASING A VERY SPECIAL PIECE?
+                    ARE YOU INTERESTED IN <br></br> PURCHASING A VERY SPECIAL
+                    <br></br> PIECE?
                   </StyledHeading>
                 </StyledHeadingWrapper>
-
                 <StyledContactFormWrapper>
                   <StyledContactFormInner>
                     <StyledContactForm>
@@ -59,7 +64,6 @@ export const ContactUs = () => {
                             placeholder="NAME*"
                           />
                         </StyledFormControl>
-
                         <StyledText> ? What is your </StyledText>
                         <StyledFormControl>
                           <StyledInputTelephone
@@ -69,7 +73,6 @@ export const ContactUs = () => {
                             placeholder="TELEPHONE NUMBER"
                           />
                         </StyledFormControl>
-
                         <StyledText> ? What is your </StyledText>
                         <StyledFormControl>
                           <StyledInputEmail
@@ -79,7 +82,6 @@ export const ContactUs = () => {
                             placeholder="EMAIL ADDRESS*"
                           />
                         </StyledFormControl>
-
                         <StyledText>?</StyledText>
                         <StyledFormControl>
                           <StyledInputElse
@@ -93,7 +95,26 @@ export const ContactUs = () => {
                     </StyledContactForm>
                   </StyledContactFormInner>
                 </StyledContactFormWrapper>
-
+                <StyledCheckBoxInner>
+                  <StyledTextInnerWrapper>
+                    <StyledInputCheckBox
+                      type="checkbox"
+                      name="accept-privacy-policy"
+                      id="accept-privacy-policy"
+                      aria-required="true"
+                      aria-invalid="false"
+                    />
+                  </StyledTextInnerWrapper>
+                  <StyledCheckBoxText>
+                    {" "}
+                    Accept privacy policy
+                  </StyledCheckBoxText>
+                </StyledCheckBoxInner>
+                <StyledSendBtnWrapper>
+                  <StyledSendBtnWrapper>
+                    <StyledInputBtn type="button">Send Request</StyledInputBtn>
+                  </StyledSendBtnWrapper>
+                </StyledSendBtnWrapper>
                 <StyledFooterSection>
                   <StyledFooterWrapper>
                     <StyledFooterInner>
@@ -110,7 +131,6 @@ export const ContactUs = () => {
           </div>
         </StyledWrapper>
       </section>
-      <CopyWrite/>
     </>
   );
 };

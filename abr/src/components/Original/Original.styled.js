@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { GlobalStyles } from "../GlobalStyle.styled";
 export const StyledSection = styled.section`
   display: block;
   background-color: #161515;
@@ -7,23 +7,20 @@ export const StyledSection = styled.section`
 
 export const StyledHandPaintingWrapper = styled.div`
   margin: 0;
+  padding: 0;
 `;
 
 export const StyledHandPaintingInner = styled.div`
-  background: url(https://artbyraff.com/wp-content/themes/storefront-child-theme-master/assets/images/bgHandPainting.jpg)
-    no-repeat;
+  background: url("https://artbyraff.com/wp-content/themes/storefront-child-theme-master/assets/images/bgHandPainting.jpg")
+    no-repeat right center / 100% auto;
   min-height: 682px;
-  background-position: right center;
-  background-size: 100% auto;
   padding: 0 0 50px;
 
   @media screen and (max-width: 767px) {
     height: auto;
-    background-position: right center;
-    background-size: auto 100%;
+    background: right center / auto 100% 100% auto;
     margin: 0;
     padding: 45px 0 30px;
-    background-size: 100% auto;
   }
 `;
 
@@ -49,20 +46,21 @@ export const StyledHeadingWrapper = styled.div`
 
 export const StyledHeadingInner = styled.div`
   flex: 0 0 auto;
-  width: auto;
   max-width: 100%;
+  width: auto;
+  margin: 0 0 -100px;
 `;
 
 export const StyledHeadingTitle = styled.div`
-  font-family: Graphik-Super;
+  font-family: "Graphik-Super";
   font-size: 102px;
   line-height: 0.98;
-  letter-spacing: 19.38px;
+  letter-spacing: 14.23px;
   text-align: right;
   color: #4b4b4b;
   text-transform: uppercase;
   position: relative;
-  right: -64px;
+  /* right: -64px; */
 
   @media screen and (max-width: 767px) {
     font-size: 28px;
@@ -72,11 +70,12 @@ export const StyledHeadingTitle = styled.div`
     right: 0;
     left: 21px;
     z-index: 1;
+    top: 27px;
   }
 `;
 
 export const StyledHeading = styled.div`
-  font-family: Graphik-Semibold;
+  font-family: "Graphik-Semibold";
   font-size: 88px;
   font-weight: 600;
   line-height: 0.51;
@@ -86,6 +85,7 @@ export const StyledHeading = styled.div`
   position: relative;
   right: 30px;
   margin-bottom: 40px;
+  bottom: 87px;
 
   @media screen and (max-width: 767px) {
     font-size: 25px;
@@ -108,10 +108,7 @@ export const StyledInnerHomeProducts = styled.div`
   margin: 0 -15px;
 `;
 
-export const StyledHomeProductGird = styled.div`
-  margin: 0;
-  padding: 0;
-`;
+export const StyledHomeProductGird = styled.div``;
 
 export const StyledHomeProductsList = styled.ul`
   display: flex;
@@ -124,8 +121,8 @@ export const StyledHomeProductsList = styled.ul`
 
 export const StyledProductList = styled.li`
   border: 1px solid #ffffff;
-  width: 25%; /* Set width to 25% to display 4 products in a row */
-  margin: 64px 6px 64px 0; /* Adjust margins as needed */
+  width: 25%;
+  margin: 64px 6px 64px 0;
 
   min-width: 247px;
   min-height: 362px;
@@ -152,10 +149,8 @@ export const StyledProductImageWrapper = styled.div`
   top: -60px;
   left: -30px;
   z-index: 2;
-  min-height: 250px;
-  max-height: 250px;
-  max-width: 247px;
-  min-width: 247px;
+  width: 247px;
+  height: 250px;
 `;
 
 export const StyledProductImageLink = styled.a`
@@ -164,10 +159,8 @@ export const StyledProductImageLink = styled.a`
 `;
 
 export const StyledProductImage = styled.img`
-  min-height: 305px;
-  max-height: 305px;
-  max-width: 247px;
-  min-width: 247px;
+  width: 247px;
+  height: 305px;
 `;
 
 export const StyledProductMoreInformation = styled.div`
@@ -182,7 +175,7 @@ export const StyledProductName = styled.div`
 `;
 
 export const StyledProductNameImage = styled.a`
-  font-family: Graphik;
+  font-family: "Graphik";
   font-size: 14px;
   color: #ffffff;
   text-decoration: none;
@@ -190,7 +183,7 @@ export const StyledProductNameImage = styled.a`
 `;
 
 export const StyledProductPrice = styled.div`
-  font-family: Graphik-Bold;
+  font-family: "Graphik-Bold";
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
@@ -198,7 +191,7 @@ export const StyledProductPrice = styled.div`
 `;
 
 export const StyledProductCategory = styled.div`
-  font-family: Graphik;
+  font-family: "Graphik";
   font-size: 13px;
   line-height: 1.15;
   color: #919191;
@@ -209,4 +202,16 @@ export const StyledProductCategory = styled.div`
 export const StyledProductSize = styled.div`
   margin-top: 5px;
   color: #919191;
+`;
+
+export const StyledAddtoBtn = styled.div`
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  border: 1px solid #d8cf91;
+  padding: 5px 8.2px 6px;
+
+  &:hover {
+    background: #d8cf91;
+  }
 `;

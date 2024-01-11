@@ -1,10 +1,41 @@
-import React from "react";
-import { StyledSection } from "./Header.styled";
-
-export const Header = () => {
+import { ArtByRaff } from "../ArtByRaff/ArtByRaff";
+import { ContactUs } from "../ContactUs/ContactUs";
+import { Original } from "../Original/Original";
+import { Sculptures } from "../Sculptures/Sculptures";
+import { Navbar } from "../Header/Navbar/Navbar";
+import {
+  StyledAbout,
+  StyledSection,
+  StyledAboutWrapper,
+  StyledHeaderDrag,
+  StyledBanner,
+  StyledInner,
+  StyledWrapper,
+} from "./Header.styled";
+import { Link } from "react-router-dom";
+export function Header() {
   return (
-    <div>
-      <StyledSection></StyledSection>
-    </div>
+    <>
+      <Navbar />
+      <StyledSection>
+        <StyledWrapper>
+          <StyledHeaderDrag>
+            <StyledInner>
+              <StyledBanner>
+                <StyledAboutWrapper>
+                  <Link to="about">
+                    <StyledAbout>ABOUT ME</StyledAbout>
+                  </Link>
+                </StyledAboutWrapper>
+              </StyledBanner>
+            </StyledInner>
+          </StyledHeaderDrag>
+        </StyledWrapper>
+      </StyledSection>
+      <ArtByRaff />
+      <Original />
+      <Sculptures />
+      <ContactUs />
+    </>
   );
-};
+}
