@@ -10,21 +10,29 @@ export const StyledSection = styled.div`
 
   @media screen and (min-width: 1200px) {
     max-width: 1140px;
+    width:100%;
   }
+
   @media screen and (min-width: 992px) and (max-width: 1199px) {
     max-width: 960px;
+    width:100%;
   }
+
   @media screen and (min-width: 768px) and (max-width: 991px) {
     max-width: 720px;
+    width:100%;
   }
+
   @media screen and (max-width: 576px) {
     max-width: 540px;
+    width:100%;
   }
 `;
 
 export const StyledWrapper = styled.div``;
 
 export const StyledInnerWrapper = styled.div`
+  margin: 100px 0 0 0;
   display: flex;
   flex-wrap: wrap;
   margin: 0 -15px;
@@ -35,6 +43,7 @@ export const StyledLeftAboutMe = styled.div`
     flex: 0 0 50%;
     max-width: 50%;
   }
+
   @media screen and (max-width: 767px) {
     flex: 0 0 100%;
     max-width: 100%;
@@ -52,6 +61,7 @@ export const StyledRightAboutMe = styled.div`
     flex: 0 0 50%;
     max-width: 50%;
   }
+
   @media screen and (max-width: 767px) {
     flex: 0 0 100%;
     max-width: 100%;
@@ -118,5 +128,6 @@ export const StyledSignatureImage = styled.img`
 
   @media screen and (max-width: 767px) {
     max-width: 92px;
+    width:100%;
   }
 `;

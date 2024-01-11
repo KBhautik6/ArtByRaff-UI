@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import { GlobalStyles } from "../../GlobalStyle.styled";
-import { FaHeart } from 'react-icons/fa';
-import { FaFacebook } from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa';
+import { FaHeart } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 export const StyledSection = styled.div``;
 
@@ -13,22 +13,24 @@ export const StyledFooterWrapper = styled.div`
 export const StyledFooterContainer = styled.div`
   max-width: 1128px;
   width: 100%;
-  margin: 0 auto; /* Center the container horizontally */
+  margin: 0 auto; 
 `;
 
 export const StyledFooterDivide = styled.div`
   padding: 4px 0 63px;
   border-bottom: 1px solid #6d6d6d;
-  @media (max-width: 991px) {
+
+  @media screen and  (max-width: 991px) {
     padding: 23px 0 240px 32px;
     display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    justify-content: center; 
+    align-items: center; 
   }
 `;
 
 export const StyledFooterLeft = styled.div`
-  @media (min-width: 767px) {
+
+  @media screen and (min-width: 767px) {
     flex: 0 0 50%;
     max-width: 50%;
     width: 100%;
@@ -40,6 +42,7 @@ export const StyledFooterBox = styled.div``;
 export const StyledFooterLogoWrapper = styled.div`
   display: inline-block;
   vertical-align: middle;
+
   img {
     max-width: 190px;
     width: 100%;
@@ -52,7 +55,8 @@ export const StyledFooterLinksWrapper = styled.div`
 
 export const StyledFooterLink = styled.div`
   display: flex;
-  @media (max-width: 776px) {
+  
+  @media screen and (max-width: 767px) {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
@@ -61,7 +65,7 @@ export const StyledFooterLink = styled.div`
 `;
 
 export const StyledFooterText = styled.p`
-  font-family: 'Graphik-Light';
+  font-family: "Graphik-Light";
   font-size: 18px;
   font-weight: 300;
   line-height: 2;
@@ -69,14 +73,13 @@ export const StyledFooterText = styled.p`
   color: #d5d5d5;
   margin: 0 28px 0 0;
   cursor: pointer;
-  @media (max-width: 776px) {
+  @media (max-width: 767px) {
     margin: 0;
   }
 `;
 
-
-export const StyledFooterInfo  = styled.div`
-  font-family: 'Graphik-Light';
+export const StyledFooterInfo = styled.div`
+  font-family: "Graphik-Light";
   font-size: 16px;
   font-weight: 300;
   line-height: 2.5;
@@ -84,7 +87,8 @@ export const StyledFooterInfo  = styled.div`
   margin: 5px 0 0 20px;
   color: #d5d5d5;
   display: none;
-  @media (max-width: 992px) {
+
+  @media screen and (max-width: 992px) {
     display: block;
   }
 `;
@@ -94,7 +98,7 @@ export const StyledFooterName = styled.div``;
 export const StyledFooterEmailPart = styled.div``;
 
 export const StyledSubcribe = styled.div`
-  font-family: 'Graphik-Medium';
+  font-family: "Graphik-Medium";
   font-size: 29px;
   font-weight: 500;
   line-height: 1.83;
@@ -102,8 +106,9 @@ export const StyledSubcribe = styled.div`
   text-transform: capitalize;
   margin: 40px 0 0;
   color: #ffffff;
-  @media (max-width: 776px) {
-    font-family: 'Graphik-Medium';
+
+  @media screen and (max-width: 767px) {
+    font-family: "Graphik-Medium";
     font-size: 22px;
     font-weight: 500;
     line-height: 1.83;
@@ -118,23 +123,22 @@ export const StyledFooterEmailWrapper = styled.div`
   position: relative;
   margin: 0;
   border-bottom: 1px solid #fff;
-  @media (max-width: 776px) {
+
+  @media screen and (max-width: 767px) {
     margin: 0 0 0 19px;
   }
 `;
 
 export const StyledFooterEmail = styled.input`
-  font-family: 'Graphik-Light';
+  font-family: "Graphik-Light";
   background: transparent;
   font-size: 16px;
   font-weight: 300;
   line-height: 2.56;
   text-align: left;
   color: #6f6f6f;
-  border-right: transparent;
-  border-left: transparent;
-  border-top: transparent;
-  border-bottom: transparent;
+  border:transparent;
+
   &:focus {
     outline: none;
     border: transparent;
@@ -143,7 +147,7 @@ export const StyledFooterEmail = styled.input`
 
 export const StyledSubmitBtn = styled.div`
   padding: 0;
-  background-image: url('https://artbyraff.com/wp-content/themes/storefront-child-theme-master/assets/images/newsletter-aero.svg');
+  background-image: url("https://artbyraff.com/wp-content/themes/storefront-child-theme-master/assets/images/newsletter-aero.svg");
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
@@ -155,7 +159,7 @@ export const StyledSubmitBtn = styled.div`
 `;
 
 export const StyledFooterRight = styled.div`
-  @media (min-width: 776px) {
+  @media screen and (min-width: 767px) {
     flex: 0 0 50%;
     max-width: 50%;
     width: 100%;
@@ -172,13 +176,14 @@ export const StyledFooterRightBox = styled.div`
 `;
 
 export const StyledFooterRIghtBoxWrapper = styled.div`
-  font-family: 'Graphik-Light';
+  font-family: "Graphik-Light";
   font-size: 16px;
   font-weight: 300;
   text-align: right;
   margin: 49px 24px 0 0px;
   color: #d5d5d5;
-  @media (max-width: 992px) {
+
+  @media screen and (max-width: 992px) {
     display: none;
   }
 `;
@@ -195,7 +200,8 @@ export const StyledFooterDescriptionEmail = styled.p`
 export const StyledIconContainer = styled.div`
   display: flex;
   margin: -10px 19px 0 0;
-  @media (max-width: 992px) {
+  
+  @media screen and  (max-width: 992px) {
     align-items: flex-start;
     margin: 30px 0 0;
   }
@@ -205,7 +211,8 @@ export const StyledIconWrapper = styled.div`
   display: flex;
   gap: 20px;
   margin: 60px 0 0;
-  @media (max-width: 992px) {
+  
+  @media screen and (max-width: 992px) {
     display: none;
   }
 `;
@@ -226,17 +233,18 @@ export const StyledCopyWriteSection = styled.div`
   width: 100%;
   background-color: transparent;
   padding: 14px 0;
-  @media (max-width: 992px) {
+
+  @media screen and (max-width: 992px) {
     padding: 45px 0;
   }
 `;
-
 
 export const StyledCopyWriteWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  @media (max-width: 776px) {
+
+  @media screen and (max-width: 767px) {
     flex-direction: column;
   }
 `;
@@ -244,7 +252,8 @@ export const StyledCopyWriteWrapper = styled.div`
 export const StyledCopyWriteTextWrapper = styled.div`
   display: flex;
   align-items: center;
-  @media (max-width: 776px) {
+
+  @media screen and (max-width: 767px) {
     flex: 0 0 auto;
     max-width: 100%;
     width: auto;
@@ -258,7 +267,8 @@ export const StyledCopyWriteText = styled.p`
   line-height: 2.56;
   text-align: left;
   color: #d5d5d5;
-  @media (max-width: 776px) {
+
+  @media  screen and (max-width: 767px) {
     line-height: 0;
   }
 `;
@@ -270,7 +280,8 @@ export const StyledDesignDeveloperText = styled.p`
   line-height: 2.56;
   text-align: left;
   color: #d5d5d5;
-  @media (max-width: 776px) {
+  
+  @media screen and (max-width: 767px) {
     line-height: 0;
   }
 `;

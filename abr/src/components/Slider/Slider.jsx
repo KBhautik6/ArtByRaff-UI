@@ -12,22 +12,26 @@ export function Slider() {
         <StyledContainer>
           <StyledNaviagationBar>
             <StyledWrapperLine>
-              <StyledLine></StyledLine>
+              <StyledLine>
+              </StyledLine>
             </StyledWrapperLine>
           </StyledNaviagationBar>
           <StyledNaviagationBar>
             <StyledWrapperLine>
-              <StyledLine></StyledLine>
+              <StyledLine>
+              </StyledLine>
             </StyledWrapperLine>
           </StyledNaviagationBar>
           <StyledNaviagationBar>
             <StyledWrapperLine>
-              <StyledLine></StyledLine>
+              <StyledLine>
+              </StyledLine>
             </StyledWrapperLine>
           </StyledNaviagationBar>
           <StyledNaviagationBar>
             <StyledWrapperLine>
-              <StyledLine></StyledLine>
+              <StyledLine>
+              </StyledLine>
             </StyledWrapperLine>
           </StyledNaviagationBar>
         </StyledContainer>

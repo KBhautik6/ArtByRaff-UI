@@ -35,8 +35,8 @@ export function MoreInfo(props) {
             </StyledProductPrice>
             <StyledProductCategory>{props.dproductinfo}</StyledProductCategory>
             <StyledProductSize>{props.dsize}</StyledProductSize>
-            {props.dsvg && (
-              <StyledAddtoBtn>{props.addToCartbtn}</StyledAddtoBtn>
+            {props.dprice !== "Sold" && (
+              <StyledAddtoBtn>{props.dsvg}</StyledAddtoBtn>
             )}
           </StyledProductMoreInformation>
         </StyledProductBox>

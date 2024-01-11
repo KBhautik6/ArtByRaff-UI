@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import { GlobalStyles } from "../GlobalStyle.styled";
 
 export const StyledSection = styled.section`
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background-position: center;
   background-size: 100% auto;
 `;
@@ -78,16 +79,17 @@ export const StyledBoxWrapper = styled.div`
 `;
 
 export const StyledBtn = styled.div`
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 30px;
   padding: 15px 30px;
   width: 200px;
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
 `;
 
 export const StyledProductSculphturesList = styled.li`
   border: 1px solid #ffffff;
+  list-style: none;
   width: 40%;
   margin: 64px 55px 64px 0;
   min-width: 247px;
@@ -97,7 +99,7 @@ export const StyledProductSculphturesList = styled.li`
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    border-color: #ddd;
+    border-color: #dddddd;
     transform: translateY(-30px);
   }
 

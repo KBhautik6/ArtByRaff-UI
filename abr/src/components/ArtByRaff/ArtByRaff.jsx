@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 import {
   StyledSection,
   StyledWrapper,
@@ -21,7 +21,6 @@ export const ArtByRaff = () => {
             </StyledHeadingWelcome>
             <StyledHeadingABR>ART BY RAFF</StyledHeadingABR>
           </StyledHeadingWrapper>
-
           <StyledText>
             <StyledDescriptionWrapper>
               <StyledDescription>

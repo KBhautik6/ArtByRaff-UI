@@ -9,10 +9,12 @@ export const StyledInner = styled.div`
   position: absolute;
   z-index: 2;
   width: 100%;
-  @media (max-width: 991px) {
-    /* max-width: 274px;  */
+
+  @media screen and (max-width: 991px) {
+    max-width: 274px; 
   }
 `;
+
 export const StyledLogoWrapper = styled.nav`
   width: 100%;
   max-width: 1128px;
@@ -20,16 +22,19 @@ export const StyledLogoWrapper = styled.nav`
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  @media (max-width: 991px) {
+  
+  @media screen and  (max-width: 991px) {
     max-width: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
   }
 `;
+
 export const StyledContainerObject = styled.div`
-  width: 100%;
   max-width: 1128px;
+  width:100%;
 `;
+
 export const StyledList = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -37,18 +42,21 @@ export const StyledList = styled.div`
   margin-left: -15px;
   align-items: center;
   justify-content: space-between;
-  color: #fff;
-  @media (max-width: 991px) {
+  color: #ffffff;
+
+  @media  screen and (max-width: 991px) {
     max-width: none;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
   }
 `;
+
 export const StyledLogoInner = styled.div`
   flex: 0 0 auto;
   width: auto;
   max-width: 100%;
 `;
+
 export const StyledBox = styled.div`
   cursor: pointer;
   font-size: 1.25rem;
@@ -56,18 +64,21 @@ export const StyledBox = styled.div`
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
-  color: #fff;
+  color: #ffffff;
 `;
+
 export const StyledLogo = styled.div`
   flex: 0 0 auto;
   width: auto;
   max-width: 100%;
 `;
+
 export const StyledLogoImage = styled.img`
   cursor: pointer;
-  width: 100%;
   max-width: 240px;
+  width:100%;
 `;
+
 export const StyledCartSection = styled.div`
   cursor: pointer;
   flex: 0 0 auto;

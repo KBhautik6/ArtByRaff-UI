@@ -16,14 +16,13 @@ export const StyledCommonInput = css`
   margin-top: 35px;
 
   &:focus {
-    outline: none; 
-    border-bottom: 2px solid #d8cf91; 
+    outline: none;
+    border-bottom: 2px solid #d8cf91;
   }
 `;
 
-
 export const StyledCommonFooter = css`
-  font-family: 'Graphik-Light';
+  font-family: "Graphik-Light";
   font-size: 18px;
   font-weight: 300;
   line-height: 2;
@@ -61,12 +60,12 @@ export const StyledContactWrapper = styled.div`
     width: 100%;
   }
 
-  @media screen and (min-width:768px) and (max-width: 992px) {
+  @media screen and (min-width: 768px) and (max-width: 992px) {
     max-width: 960px;
     width: 100%;
   }
 
-  @media screen and (min-width:576px) and(max-width: 767px) {
+  @media screen and (min-width: 576px) and(max-width: 767px) {
     max-width: 720px;
     width: 100%;
   }
@@ -78,13 +77,13 @@ export const StyledContactWrapper = styled.div`
 `;
 
 export const StyledHeadingWrapper = styled.div`
-display: flex;
-    justify-content: center ;
-    flex-direction:column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 `;
 
 export const StyledTitle = styled.div`
-  font-family: 'Graphik-Black';
+  font-family: "Graphik-Black";
   font-size: 83px;
   font-weight: 900;
   line-height: 0.54;
@@ -94,7 +93,7 @@ export const StyledTitle = styled.div`
   top: 110px;
   color: #1c1b1c;
 
-  @media screen and  (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     font-size: 39px;
     line-height: 1.43;
   }
@@ -110,7 +109,7 @@ export const StyledHeading = styled.div`
   z-index: 1;
   color: #e8e3e8;
 
-  @media screen and  (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     font-size: 17px;
     line-height: 1.43;
   }
@@ -156,16 +155,16 @@ export const StyledFormTitle = styled.p`
 
 export const StyledTextWrapper = styled.p`
   margin: 0;
-`
+`;
 
 export const StyledText = styled.span`
-    font-family: 'Graphik-Light';
-    font-size: 26px;
-    line-height: 2.5;
-    text-align: center;
-    color: #e8e3e8;
-    margin: 0 7px;
-    
+  font-family: "Graphik-Light";
+  font-size: 26px;
+  line-height: 2.5;
+  text-align: center;
+  color: #e8e3e8;
+  margin: 0 7px;
+
   @media screen and (max-width: 767px) {
     font-size: 16px;
   }
@@ -177,30 +176,30 @@ export const StyledFormControl = styled.span`
 
 export const StyledInputText = styled.input`
   width: 500px;
-  font-family: 'Graphik-Light';
+  font-family: "Graphik-Light";
   ${StyledCommonInput};
 
-  @media screen and (max-width:767px){
+  @media screen and (max-width: 767px) {
     width: 60%;
   }
 `;
 
 export const StyledInputTelephone = styled.input`
   width: 360px;
-  font-family: 'Graphik-Light';
+  font-family: "Graphik-Light";
   ${StyledCommonInput};
 
-  @media screen and (max-width:767px){
+  @media screen and (max-width: 767px) {
     width: 60%;
   }
 `;
 
 export const StyledInputEmail = styled.input`
   width: 370px;
-  font-family: 'Graphik-Light';
+  font-family: "Graphik-Light";
   ${StyledCommonInput};
 
-  @media screen and (max-width:767px){
+  @media screen and (max-width: 767px) {
     width: 60%;
   }
 `;
@@ -208,12 +207,12 @@ export const StyledInputEmail = styled.input`
 export const StyledInputElse = styled.input`
   width: 100%;
   ${StyledCommonInput};
-  text-align:left;
+  text-align: left;
 `;
 
 export const StyledCheckBoxInner = styled.div`
-    text-align: left;
-    margin-left: 60px;
+  text-align: left;
+  margin-left: 60px;
 `;
 
 export const StyledTextInnerWrapper = styled.div`
@@ -221,17 +220,17 @@ export const StyledTextInnerWrapper = styled.div`
   display: inline;
 `;
 
-export const StyledInputCheckBox = styled.input`
-`;
+export const StyledInputCheckBox = styled.input``;
 
 export const StyledCheckBoxText = styled.span`
-  font-family: 'Graphik-light';
+  font-family: "Graphik-light";
   font-size: 26px;
   line-height: 2.5;
   text-align: center;
   color: #e8e3e8;
   margin: 0 2px;
-  @media (max-width: 776px) {
+
+  @media screen and (max-width: 767px) {
     font-size: 16px;
     margin: 10px 2px;
   }
@@ -250,16 +249,15 @@ export const StyledInputBtn = styled.button`
   &::hover {
     border: 1px solid #7e7555;
   }
-  @media screen and (max-width: 776px) {
+  @media screen and (max-width: 767px) {
     padding: 13px 35px;
   }
 `;
 
-export const StyledSendBtnWrapper = styled.div`
-`;
+export const StyledSendBtnWrapper = styled.div``;
 
 export const StyledFooterSection = styled.div`
-  margin: 0px;
+  margin: 0;
 `;
 
 export const StyledFooterWrapper = styled.div`
@@ -279,18 +277,22 @@ export const StyledFooterContainer = styled.div`
   margin-left: auto;
   @media screen and (min-width: 1200px) {
     max-width: 1140px;
+    width:100%;
   }
 
   @media screen and (min-width: 767px) and (max-width: 992px) {
     max-width: 960px;
+    width:100%;
   }
 
   @media screen and (min-width: 577px) and (max-width: 768px) {
     max-width: 720px;
+    width:100%;
   }
 
   @media (max-width: 576px) {
     max-width: 540px;
+    width:100%;
   }
 `;
 
@@ -302,4 +304,3 @@ export const StyledFooterMain = styled.div`
   margin-right: -15px;
   margin-left: -15px;
 `;
-

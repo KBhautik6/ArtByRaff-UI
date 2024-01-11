@@ -60,7 +60,6 @@ export const StyledHeadingTitle = styled.div`
   color: #4b4b4b;
   text-transform: uppercase;
   position: relative;
-  /* right: -64px; */
 
   @media screen and (max-width: 767px) {
     font-size: 28px;
@@ -123,7 +122,7 @@ export const StyledProductList = styled.li`
   border: 1px solid #ffffff;
   width: 25%;
   margin: 64px 6px 64px 0;
-
+  list-style: none;
   min-width: 247px;
   min-height: 362px;
   position: relative;
@@ -132,7 +131,7 @@ export const StyledProductList = styled.li`
 
   &:hover {
     border-color: #ddd;
-    transform: translateY(-30px); /* Adjust the value as needed */
+    transform: translateY(-30px);
   }
 
   @media screen and (max-width: 767px) {
@@ -143,7 +142,6 @@ export const StyledProductList = styled.li`
 export const StyledProductBox = styled.div`
   text-align: center !important;
 `;
-
 export const StyledProductImageWrapper = styled.div`
   position: absolute;
   top: -60px;

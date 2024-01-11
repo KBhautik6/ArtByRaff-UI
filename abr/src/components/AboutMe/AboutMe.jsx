@@ -12,13 +12,18 @@ import {
   StyledSignature,
   StyledSignatureImage,
 } from "./AboutMe.styled";
+import { Navbar } from "../Header/Navbar/Navbar";
 
 export const AboutMe = () => {
   return (
     <div>
+      <Navbar />
       <StyledSection>
         <StyledWrapper>
-          {/* Nav bar dalna ha import karna ha ye */}
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
           <StyledInnerWrapper>
             <StyledLeftAboutMe>
               <StyledAboutMeImage
@@ -37,8 +42,9 @@ export const AboutMe = () => {
                   is. I love to mix a wide variety of materials from sprays,
                   acrylics to chalk, colored pencils and more. Thats are my
                   preferred media because they allow me to work flexibly and
-                  intuitively.{"\n"}
-                  {"\n"}
+                  intuitively.
+                  <br></br>
+                  <br />
                   My style is strongly oriented on form and color. I draw
                   inspiration from everyday life and my surroundings. It is
                   especially important to me that my art is approachable and

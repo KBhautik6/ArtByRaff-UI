@@ -59,7 +59,9 @@ export const Footer = () => {
                 </StyledFooterBox>
                 <StyledFooterInfo>
                   <StyledFooterName>Raffaello Djordjevic</StyledFooterName>
-                  <StyledFooterEmailPart>E-Mail: raffaello@artbyraff.com</StyledFooterEmailPart>
+                  <StyledFooterEmailPart>
+                    E-Mail: raffaello@artbyraff.com
+                  </StyledFooterEmailPart>
                 </StyledFooterInfo>
                 <StyledSubcribe>Subscribe Newsletter</StyledSubcribe>
                 <StyledFooterEmailWrapper>
@@ -75,11 +77,12 @@ export const Footer = () => {
                   <StyledSubmitBtn />
                 </StyledFooterEmailWrapper>
               </StyledFooterLeft>
-
               <StyledFooterRight>
                 <StyledFooterRightBox>
                   <StyledFooterRIghtBoxWrapper>
-                    <StyledFooterDescription>Raffaello Djordjevic</StyledFooterDescription>
+                    <StyledFooterDescription>
+                      Raffaello Djordjevic
+                    </StyledFooterDescription>
                     <StyledFooterDescriptionEmail>
                       E-Mail: raffaello@artbyraff.com
                     </StyledFooterDescriptionEmail>

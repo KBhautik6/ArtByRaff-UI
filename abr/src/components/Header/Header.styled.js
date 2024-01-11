@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const StyledSection = styled.section`
   padding: 0;
 `;
@@ -50,7 +51,7 @@ export const StyledAbout = styled.a`
   font-weight: bold;
   line-height: 1.31;
   color: #ffffff;
-  text-decoration: none; /* Remove underline */
+  text-decoration: none;
   border: 1px solid #fff;
   border-radius: 25px;
   padding: 22px 96px;

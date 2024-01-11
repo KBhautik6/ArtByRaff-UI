@@ -12,7 +12,6 @@ import {
   StyledInnerHomeProducts,
   StyledHomeProductGird,
   StyledHomeProductsList,
-  StyledAddtoBtn,
 } from "./Original.styled";
 import { MoreInfo } from "./MoreInfo";
 import { Data } from "./Data";
@@ -45,7 +44,6 @@ export const Original = () => (
                         dprice={item.dprice}
                         dproductinfo={item.dproductinfo}
                         dsize={item.dsize}
-                        dsvg={item.dsize}
                       ></MoreInfo>
                     ))}
                   </StyledHomeProductsList>
