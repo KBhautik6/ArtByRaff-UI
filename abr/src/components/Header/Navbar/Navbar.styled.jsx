@@ -11,19 +11,18 @@ export const StyledInner = styled.div`
   width: 100%;
 
   @media screen and (max-width: 991px) {
-    max-width: 274px; 
+    max-width: 274px;
+    width:100%;
   }
 `;
 
 export const StyledLogoWrapper = styled.nav`
   width: 100%;
   max-width: 1128px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  
-  @media screen and  (max-width: 991px) {
+  padding:0 15x;
+  margin:0 auto;
+
+  @media screen and (max-width: 991px) {
     max-width: none;
     padding: 0;
     margin: 0;
@@ -32,23 +31,18 @@ export const StyledLogoWrapper = styled.nav`
 
 export const StyledContainerObject = styled.div`
   max-width: 1128px;
-  width:100%;
+  width: 100%;
 `;
 
 export const StyledList = styled.div`
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin: 0 -15px;
   align-items: center;
   justify-content: space-between;
   color: #ffffff;
 
-  @media  screen and (max-width: 991px) {
-    max-width: none;
-    padding: 0;
-    margin: 0;
-  }
+  
 `;
 
 export const StyledLogoInner = styled.div`
@@ -76,7 +70,7 @@ export const StyledLogo = styled.div`
 export const StyledLogoImage = styled.img`
   cursor: pointer;
   max-width: 240px;
-  width:100%;
+  width: 100%;
 `;
 
 export const StyledCartSection = styled.div`

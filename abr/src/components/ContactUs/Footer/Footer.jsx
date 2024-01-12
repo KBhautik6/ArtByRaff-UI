@@ -72,7 +72,7 @@ export const Footer = () => {
                     size="40"
                     aria-required="true"
                     aria-invalid="false"
-                    placeholder="Name*"
+                    placeholder="Your Email*"
                   />
                   <StyledSubmitBtn />
                 </StyledFooterEmailWrapper>

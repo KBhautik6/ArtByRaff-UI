@@ -13,23 +13,24 @@ export const StyledFooterWrapper = styled.div`
 export const StyledFooterContainer = styled.div`
   max-width: 1128px;
   width: 100%;
-  margin: 0 auto; 
+  margin: 0 auto;
 `;
 
 export const StyledFooterDivide = styled.div`
   padding: 4px 0 63px;
   border-bottom: 1px solid #6d6d6d;
 
-  @media screen and  (max-width: 991px) {
-    padding: 23px 0 240px 32px;
+  @media screen and (max-width: 991px) {
+    padding: 9px 0 122px 162px;
+    line-height:1;
+    word-spacing:1px;
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
   }
 `;
 
 export const StyledFooterLeft = styled.div`
-
   @media screen and (min-width: 767px) {
     flex: 0 0 50%;
     max-width: 50%;
@@ -55,7 +56,7 @@ export const StyledFooterLinksWrapper = styled.div`
 
 export const StyledFooterLink = styled.div`
   display: flex;
-  
+
   @media screen and (max-width: 767px) {
     display: flex;
     justify-content: space-between;
@@ -74,7 +75,7 @@ export const StyledFooterText = styled.p`
   margin: 0 28px 0 0;
   cursor: pointer;
   @media (max-width: 767px) {
-    margin: 0;
+    margin: 0 27px 0 0;
   }
 `;
 
@@ -137,7 +138,7 @@ export const StyledFooterEmail = styled.input`
   line-height: 2.56;
   text-align: left;
   color: #6f6f6f;
-  border:transparent;
+  border: transparent;
 
   &:focus {
     outline: none;
@@ -200,8 +201,8 @@ export const StyledFooterDescriptionEmail = styled.p`
 export const StyledIconContainer = styled.div`
   display: flex;
   margin: -10px 19px 0 0;
-  
-  @media screen and  (max-width: 992px) {
+
+  @media screen and (max-width: 992px) {
     align-items: flex-start;
     margin: 30px 0 0;
   }
@@ -211,7 +212,7 @@ export const StyledIconWrapper = styled.div`
   display: flex;
   gap: 20px;
   margin: 60px 0 0;
-  
+
   @media screen and (max-width: 992px) {
     display: none;
   }
@@ -254,7 +255,7 @@ export const StyledCopyWriteTextWrapper = styled.div`
   align-items: center;
 
   @media screen and (max-width: 767px) {
-    flex: 0 0 auto;
+    flex: 0 0 ;
     max-width: 100%;
     width: auto;
   }
@@ -268,8 +269,10 @@ export const StyledCopyWriteText = styled.p`
   text-align: left;
   color: #d5d5d5;
 
-  @media  screen and (max-width: 767px) {
-    line-height: 0;
+  @media screen and (max-width: 767px) {
+    line-height: 1;
+    margin:auto;
+
   }
 `;
 
@@ -280,9 +283,9 @@ export const StyledDesignDeveloperText = styled.p`
   line-height: 2.56;
   text-align: left;
   color: #d5d5d5;
-  
+
   @media screen and (max-width: 767px) {
-    line-height: 0;
+    line-height: 1;
   }
 `;
 

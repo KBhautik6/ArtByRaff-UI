@@ -46,6 +46,7 @@ export const Data = [
     dprice: "Sold",
     dproductinfo: "MATERIAL : MIXED MEDIA ON CANVAS",
     dsize: "100 x 100 cm",
+    dsvg: SvgLink,
   },
   {
     id: "2",

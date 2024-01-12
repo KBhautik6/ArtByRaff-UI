@@ -10,22 +10,22 @@ export const StyledSection = styled.div`
 
   @media screen and (min-width: 1200px) {
     max-width: 1140px;
-    width:100%;
+    width: 100%;
   }
 
   @media screen and (min-width: 992px) and (max-width: 1199px) {
     max-width: 960px;
-    width:100%;
+    width: 100%;
   }
 
   @media screen and (min-width: 768px) and (max-width: 991px) {
     max-width: 720px;
-    width:100%;
+    width: 100%;
   }
 
   @media screen and (max-width: 576px) {
     max-width: 540px;
-    width:100%;
+    width: 100%;
   }
 `;
 
@@ -128,6 +128,6 @@ export const StyledSignatureImage = styled.img`
 
   @media screen and (max-width: 767px) {
     max-width: 92px;
-    width:100%;
+    width: 100%;
   }
 `;

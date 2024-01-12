@@ -32,7 +32,7 @@ import { Footer } from "./Footer/Footer";
 
 export const ContactUs = () => {
   return (
-    <>
+    <div id="contactsection">
       <section>
         <StyledWrapper>
           <div className="contact">
@@ -131,6 +131,6 @@ export const ContactUs = () => {
           </div>
         </StyledWrapper>
       </section>
-    </>
+    </div>
   );
 };

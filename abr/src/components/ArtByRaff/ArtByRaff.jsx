@@ -12,7 +12,7 @@ import {
 
 export const ArtByRaff = () => {
   return (
-    <>
+    <div id="aboutmesection">
       <StyledSection>
         <StyledWrapper>
           <StyledHeadingWrapper>
@@ -39,6 +39,6 @@ export const ArtByRaff = () => {
           </StyledText>
         </StyledWrapper>
       </StyledSection>
-    </>
+    </div>
   );
 };

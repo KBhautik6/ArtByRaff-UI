@@ -246,11 +246,15 @@ export const StyledInputBtn = styled.button`
   padding: 18px 45px;
   text-transform: uppercase;
   cursor: pointer;
+
   &::hover {
     border: 1px solid #7e7555;
   }
+
   @media screen and (max-width: 767px) {
     padding: 13px 35px;
+    margin-top: 20px;
+    margin-right: 80px;
   }
 `;
 
@@ -277,22 +281,22 @@ export const StyledFooterContainer = styled.div`
   margin-left: auto;
   @media screen and (min-width: 1200px) {
     max-width: 1140px;
-    width:100%;
+    width: 100%;
   }
 
   @media screen and (min-width: 767px) and (max-width: 992px) {
     max-width: 960px;
-    width:100%;
+    width: 100%;
   }
 
   @media screen and (min-width: 577px) and (max-width: 768px) {
     max-width: 720px;
-    width:100%;
+    width: 100%;
   }
 
   @media (max-width: 576px) {
     max-width: 540px;
-    width:100%;
+    width: 100%;
   }
 `;
 

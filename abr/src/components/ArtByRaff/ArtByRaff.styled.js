@@ -28,24 +28,24 @@ export const StyledSection = styled.section`
 
 export const StyledWrapper = styled.div`
   max-width: 1128px;
-  width:100%;
+  width: 100%;
   margin: 0 auto;
 
   @media screen and (min-width: 1200px) {
     max-width: 1140px;
-    width:100%;
+    width: 100%;
   }
   @media screen and (max-width: 992px) and (min-width: 768px) {
     max-width: 960px;
-    width:100%;
+    width: 100%;
   }
   @media screen and (min-width: 576px) and (max-width: 767px) {
     max-width: 720px;
-    width:100%;
+    width: 100%;
   }
   @media screen and (max-width: 575px) {
     max-width: 540px;
-    width:100%;
+    width: 100%;
   }
 `;
 
@@ -89,7 +89,9 @@ export const StyledHeadingABR = styled.div`
   @media screen and (max-width: 767px) {
     font-size: 21px;
     line-height: 0.96;
-    letter-spacing: 5.32px;
+    letter-spacing: 8px;
+    margin-left: 100px;
+    top: -25px;
   }
 `;
 
@@ -108,7 +110,7 @@ export const StyledDescription = styled.div`
   border-left: 5px solid #d8cf91;
   padding: 0 67px;
   max-width: 967px;
-  width:100%;
+  width: 100%;
   font-family: "Graphik-Light";
   font-size: 22px;
   font-weight: 300;
@@ -122,5 +124,6 @@ export const StyledDescription = styled.div`
     font-weight: 300;
     line-height: 1.93;
     padding: 0 0 0 25px;
+    border-left: 5px solid #d8cf91;
   }
 `;

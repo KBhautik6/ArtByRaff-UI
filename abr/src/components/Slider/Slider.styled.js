@@ -11,6 +11,11 @@ export const StyledContainer = styled.ul`
   background: none;
   float: left;
   position: relative;
+  margin-left:-36px;
+
+@media screen and (max-width:991px) {
+    margin-left:-50px;
+}
 `;
 
 export const StyledNaviagationBar = styled.li`
@@ -37,5 +42,16 @@ export const StyledWrapperLine = styled.div`
 export const StyledLine = styled.a`
   width: 5px;
   border-radius: 0 1px 1px 0;
-  background: #ddd;
+  background: #dddddd;
+`;
+
+export const StyledLinkWrapper = styled.div`
+  color: #ffffff; 
+  width:5px;
+  line-height:1;
+  visibility: hidden; 
+
+  @media screen and (max-width:991px){
+    width:1px;
+  }
 `;

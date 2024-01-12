@@ -9,6 +9,9 @@ import {
   StyledProductSculphturesList,
   StyledHomeProductsList,
 } from "./Sculptures.styled";
+import { StyledAddtoBtn } from "../Original/Original.styled";
+
+import SvgLink from "../Original/Data";
 
 import {
   StyledHomeProducts,
@@ -27,7 +30,7 @@ import {
 
 export const Sculptures = () => {
   return (
-    <>
+    <div id="sculptures">
       <StyledSection>
         <StyledWrapper>
           <StyledInnerWrapper>
@@ -66,6 +69,9 @@ export const Sculptures = () => {
                           <StyledProductCategory>
                             ACRYL, SPRAY, PLASTER
                           </StyledProductCategory>
+                          {/* <StyledAddtoBtn>
+                            {SvgLink}
+                          </StyledAddtoBtn> */}
                         </StyledProductMoreInformation>
                       </StyledProductBox>
                     </StyledProductSculphturesList>
@@ -98,6 +104,6 @@ export const Sculptures = () => {
           </StyledInnerWrapper>
         </StyledWrapper>
       </StyledSection>
-    </>
+    </div>
   );
 };

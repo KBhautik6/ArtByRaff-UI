@@ -17,7 +17,7 @@ import { MoreInfo } from "./MoreInfo";
 import { Data } from "./Data";
 
 export const Original = () => (
-  <>
+  <div id="originalsection">
     <StyledSection>
       <StyledHandPaintingWrapper>
         <StyledHandPaintingInner>
@@ -44,6 +44,7 @@ export const Original = () => (
                         dprice={item.dprice}
                         dproductinfo={item.dproductinfo}
                         dsize={item.dsize}
+                        dsvg={item.dsvg}
                       ></MoreInfo>
                     ))}
                   </StyledHomeProductsList>
@@ -54,5 +55,5 @@ export const Original = () => (
         </StyledHandPaintingInner>
       </StyledHandPaintingWrapper>
     </StyledSection>
-  </>
+  </div>
 );

@@ -18,7 +18,7 @@ export function Navbar() {
         <StyledInner>
           <StyledLogoWrapper>
             <StyledList>
-              <Link to="info" target="_self">
+              <Link to="about" target="_self">
                 <StyledBox>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
