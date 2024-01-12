@@ -272,13 +272,11 @@ export const StyledFooterInner = styled.div`
   width: 100%;
 `;
 export const StyledFooterContainer = styled.div`
-  width: 100%;
   max-width: 1128px;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  padding:0 15px;
+  margin:0 auto;
+
   @media screen and (min-width: 1200px) {
     max-width: 1140px;
     width: 100%;
@@ -305,6 +303,5 @@ export const StyledFooterMain = styled.div`
   border-bottom: 1px solid #6d6d6d;
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin:0 -15px;
 `;

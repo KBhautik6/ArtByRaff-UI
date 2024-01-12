@@ -31,6 +31,7 @@ export const StyledFooterDivide = styled.div`
 `;
 
 export const StyledFooterLeft = styled.div`
+
   @media screen and (min-width: 767px) {
     flex: 0 0 50%;
     max-width: 50%;
@@ -74,7 +75,8 @@ export const StyledFooterText = styled.p`
   color: #d5d5d5;
   margin: 0 28px 0 0;
   cursor: pointer;
-  @media (max-width: 767px) {
+
+  @media screen and (max-width: 767px) {
     margin: 0 27px 0 0;
   }
 `;
@@ -160,6 +162,7 @@ export const StyledSubmitBtn = styled.div`
 `;
 
 export const StyledFooterRight = styled.div`
+
   @media screen and (min-width: 767px) {
     flex: 0 0 50%;
     max-width: 50%;

@@ -41,6 +41,7 @@ export const StyledAboutWrapper = styled.div`
   align-items: center;
   justify-content: center;
   height: 773px;
+  text-decoration: none; 
 `;
 
 export const StyledAbout = styled.a`
@@ -55,4 +56,5 @@ export const StyledAbout = styled.a`
   border: 1px solid #fff;
   border-radius: 25px;
   padding: 22px 96px;
+  text-decoration: none; 
 `;

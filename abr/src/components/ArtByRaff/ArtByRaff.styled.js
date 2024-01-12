@@ -35,14 +35,17 @@ export const StyledWrapper = styled.div`
     max-width: 1140px;
     width: 100%;
   }
+
   @media screen and (max-width: 992px) and (min-width: 768px) {
     max-width: 960px;
     width: 100%;
   }
+
   @media screen and (min-width: 576px) and (max-width: 767px) {
     max-width: 720px;
     width: 100%;
   }
+  
   @media screen and (max-width: 575px) {
     max-width: 540px;
     width: 100%;
