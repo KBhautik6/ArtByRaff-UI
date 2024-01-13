@@ -94,10 +94,8 @@ export const StyledCustomSlider = styled.div`
   border-radius: 10px;
 `;
 
-export const CustomArrowIcon = styled.div`
-  svg {
-    fill: #ffffff;
-  }
+export const CustomArrowIcon = styled.svg`
+  fill: #ffffff;
 `;
 
 export const StyledSlider = styled.div`
@@ -108,22 +106,20 @@ export const StyledSliderWrapper = styled.div`
   border-radius: 10px 10px 0 0;
 `;
 
-export const StyledSliderImage = styled.div`
+export const StyledSliderImageInner = styled.div`
   margin: 20px -14px 9px 0;
   position: relative;
+`;
 
-  img {
-    width: 330px;
-    height: 420px;
-  }
+export const StyledSliderImage = styled.img`
+  width: 330px;
+  height: 420px;
 
   @media screen and (max-width: 991px) {
     margin: 20px -24px 9px 0;
-    img {
-      max-width: 100px;
-      width: 100%;
-      max-height: 200px;
-    }
+    max-width: 100px;
+    width: 100%;
+    max-height: 200px;
   }
 `;
 

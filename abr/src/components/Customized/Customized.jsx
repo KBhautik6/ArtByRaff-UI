@@ -5,28 +5,17 @@ import "slick-carousel/slick/slick-theme.css";
 import {
   StyledSection,
   StyledContainer,
-  StyledCustomSlider,
-  StyledSliderWrapper,
-  StyledSliderImage,
-  StyledNextArrow,
-  StyledSlider,
-  StyledPreviousArrow,
-  StyledSliderNameWrapper,
-  StyledSliderName,
   StyledHeadingWrapper,
   StyledHeading,
 } from "./Customized.styled";
 import { Cdata } from "./Data";
+import { CustomizedSlider } from "./Customized.props";
 
 export const Customized = () => {
   const [centerIndex, setCenterIndex] = useState(0);
 
   const handleBeforeChange = (current, next) => {
     setCenterIndex(next);
-  };
-
-  const calculateImageOpacity = (currentIndex, slideIndex) => {
-    return currentIndex === slideIndex ? 1 : 0.5;
   };
 
   const settings = {
@@ -54,24 +43,12 @@ export const Customized = () => {
           </StyledHeadingWrapper>
           <Slider {...settings}>
             {Cdata.map((c, index) => (
-              <StyledCustomSlider key={c.Cname}>
-                <StyledSliderWrapper>
-                  <StyledSlider isActive={index === centerIndex}>
-                    <StyledSliderImage
-                      style={{
-                        opacity: calculateImageOpacity(centerIndex, index),
-                      }}
-                    >
-                      <img src={c.Cimg} alt="" />
-                    </StyledSliderImage>
-                    {index === centerIndex && (
-                      <StyledSliderNameWrapper>
-                        <StyledSliderName>{c.Cname}</StyledSliderName>
-                      </StyledSliderNameWrapper>
-                    )}
-                  </StyledSlider>
-                </StyledSliderWrapper>
-              </StyledCustomSlider>
+              <CustomizedSlider
+                key={c.Cname}
+                data={c}
+                index={index}
+                centerIndex={centerIndex}
+              />
             ))}
           </Slider>
         </StyledContainer>
