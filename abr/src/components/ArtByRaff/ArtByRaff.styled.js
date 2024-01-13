@@ -45,7 +45,7 @@ export const StyledWrapper = styled.div`
     max-width: 720px;
     width: 100%;
   }
-  
+
   @media screen and (max-width: 575px) {
     max-width: 540px;
     width: 100%;
@@ -84,7 +84,7 @@ export const StyledHeadingABR = styled.div`
   letter-spacing: 14.38px;
   color: #4b4b4b;
   text-transform: uppercase;
-  margin-bottom: 0;
+  margin: 0;
   position: relative;
   left: -60px;
   top: -100px;
@@ -93,7 +93,8 @@ export const StyledHeadingABR = styled.div`
     font-size: 21px;
     line-height: 0.96;
     letter-spacing: 8px;
-    margin-left: 100px;
+    margin: 0 0 100px 0;
+    margin: 0 0 0 100px;
     top: -25px;
   }
 `;

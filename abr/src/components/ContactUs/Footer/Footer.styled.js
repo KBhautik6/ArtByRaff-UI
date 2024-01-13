@@ -22,8 +22,8 @@ export const StyledFooterDivide = styled.div`
 
   @media screen and (max-width: 991px) {
     padding: 9px 0 122px 162px;
-    line-height:1;
-    word-spacing:1px;
+    line-height: 1;
+    word-spacing: 1px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,6 @@ export const StyledFooterDivide = styled.div`
 `;
 
 export const StyledFooterLeft = styled.div`
-
   @media screen and (min-width: 767px) {
     flex: 0 0 50%;
     max-width: 50%;
@@ -41,11 +40,13 @@ export const StyledFooterLeft = styled.div`
 
 export const StyledFooterBox = styled.div``;
 
-export const StyledFooterLogoWrapper = styled.div`
+export const StyledFooterLogoWrapper = styled.a`
   display: inline-block;
   vertical-align: middle;
+  margin: 0 356px 0 0;
 
   img {
+    margin: 0;
     max-width: 190px;
     width: 100%;
   }
@@ -162,7 +163,6 @@ export const StyledSubmitBtn = styled.div`
 `;
 
 export const StyledFooterRight = styled.div`
-
   @media screen and (min-width: 767px) {
     flex: 0 0 50%;
     max-width: 50%;
@@ -179,12 +179,12 @@ export const StyledFooterRightBox = styled.div`
   margin: -200px 0 0 1020px;
 `;
 
-export const StyledFooterRIghtBoxWrapper = styled.div`
+export const StyledFooterRightBoxWrapper = styled.div`
   font-family: "Graphik-Light";
   font-size: 16px;
   font-weight: 300;
   text-align: right;
-  margin: 49px 24px 0 0px;
+  margin: 49px 24px 0 0;
   color: #d5d5d5;
 
   @media screen and (max-width: 992px) {
@@ -258,7 +258,7 @@ export const StyledCopyWriteTextWrapper = styled.div`
   align-items: center;
 
   @media screen and (max-width: 767px) {
-    flex: 0 0 ;
+    flex: 0 0 auto;
     max-width: 100%;
     width: auto;
   }
@@ -274,8 +274,7 @@ export const StyledCopyWriteText = styled.p`
 
   @media screen and (max-width: 767px) {
     line-height: 1;
-    margin:auto;
-
+    margin: auto;
   }
 `;
 

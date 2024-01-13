@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import { GlobalStyles } from "../GlobalStyle.styled";
+
 export const StyledSection = styled.section`
   display: block;
   background-color: #161515;
@@ -83,8 +84,8 @@ export const StyledHeading = styled.div`
   color: #86847bc9;
   position: relative;
   right: 30px;
-  margin-bottom: 40px;
   bottom: 87px;
+  margin: 0 0 40px 0;
 
   @media screen and (max-width: 767px) {
     font-size: 25px;
@@ -114,7 +115,7 @@ export const StyledHomeProductsList = styled.ul`
   flex-wrap: wrap;
 
   @media screen and (max-width: 767px) {
-    margin-left: 7%;
+    margin: 0 0 0 7%;
   }
 `;
 
@@ -130,7 +131,7 @@ export const StyledProductList = styled.li`
   transition: all 0.2s ease-in-out;
 
   &:hover {
-    border-color: #ddd;
+    border-color: #dddddd;
     transform: translateY(-30px);
   }
 
@@ -142,6 +143,7 @@ export const StyledProductList = styled.li`
 export const StyledProductBox = styled.div`
   text-align: center !important;
 `;
+
 export const StyledProductImageWrapper = styled.div`
   position: absolute;
   top: -60px;
@@ -165,7 +167,7 @@ export const StyledProductMoreInformation = styled.div`
   text-align: left;
   padding: 22px 20px 22px 25px;
   position: relative;
-  margin-top: 250px;
+  margin: 250px 0 0 0;
 `;
 
 export const StyledProductName = styled.div`
@@ -198,7 +200,7 @@ export const StyledProductCategory = styled.div`
 `;
 
 export const StyledProductSize = styled.div`
-  margin-top: 5px;
+  margin: 5px 0 0 0;
   color: #919191;
 `;
 

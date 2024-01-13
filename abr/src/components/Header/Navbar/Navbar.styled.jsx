@@ -12,15 +12,15 @@ export const StyledInner = styled.div`
 
   @media screen and (max-width: 991px) {
     max-width: 274px;
-    width:100%;
+    width: 100%;
   }
 `;
 
 export const StyledLogoWrapper = styled.nav`
   width: 100%;
   max-width: 1128px;
-  padding:0 15x;
-  margin:0 auto;
+  padding: 0 15x;
+  margin: 0 auto;
 
   @media screen and (max-width: 991px) {
     max-width: none;
@@ -41,8 +41,6 @@ export const StyledList = styled.div`
   align-items: center;
   justify-content: space-between;
   color: #ffffff;
-
-  
 `;
 
 export const StyledLogoInner = styled.div`

@@ -11,17 +11,18 @@ export const StyledContainer = styled.ul`
   background: none;
   float: left;
   position: relative;
-  margin-left:-36px;
+  margin: 0 0 0 -36px;
 
-@media screen and (max-width:991px) {
-    margin-left:-50px;
-}
+  @media screen and (max-width: 991px) {
+    margin: 0 0 0 -50px;
+  }
 `;
 
 export const StyledNaviagationBar = styled.li`
   list-style-type: none;
   background-color: #ffffff;
   margin: 6px 0 0 0;
+  cursor: pointer;
 
   &::before {
     display: contents;
@@ -29,7 +30,7 @@ export const StyledNaviagationBar = styled.li`
     display: inline-block;
     width: 0;
     height: 8px;
-    padding-top: 20px;
+    padding: 20px 0 0 0;
   }
 `;
 
@@ -46,12 +47,12 @@ export const StyledLine = styled.a`
 `;
 
 export const StyledLinkWrapper = styled.div`
-  color: #ffffff; 
-  width:5px;
-  line-height:1;
-  visibility: hidden; 
+  color: #ffffff;
+  width: 5px;
+  line-height: 1;
+  visibility: hidden;
 
-  @media screen and (max-width:991px){
-    width:1px;
+  @media screen and (max-width: 991px) {
+    width: 1px;
   }
 `;

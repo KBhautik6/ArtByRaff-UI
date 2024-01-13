@@ -32,7 +32,6 @@ export const StyledSection = styled.div`
 export const StyledWrapper = styled.div``;
 
 export const StyledInnerWrapper = styled.div`
-  margin: 100px 0 0 0;
   display: flex;
   flex-wrap: wrap;
   margin: 0 -15px;
@@ -80,7 +79,7 @@ export const StyledHeading = styled.div`
   @media screen and (max-width: 767px) {
     font-size: 25px;
     text-align: center;
-    margin-top: 44px;
+    margin: 44px 0 0 0;
   }
 `;
 
@@ -98,16 +97,16 @@ export const StyledAboutMeDescription = styled.div`
     font-size: 14px;
     text-align: center;
     line-height: 2.21;
-    margin-top: 10px;
+    margin: 10px 0 0 0;
   }
 `;
 
 export const StyledSignatureWrapper = styled.div`
   display: flex;
-  margin-top: 25px;
+  margin: 25px 0 0 0;
 
   @media screen and (max-width: 767px) {
-    margin-top: 10px;
+    margin: 10px 0 0 0;
   }
 `;
 
@@ -116,7 +115,7 @@ export const StyledSignature = styled.div`
   font-size: 16px;
   line-height: 5.06;
   text-align: left;
-  margin-right: 22px;
+  margin: 0 22px 0 0;
   text-transform: uppercase;
   color: #ffffff;
 `;

@@ -3,6 +3,7 @@ import { ContactUs } from "../ContactUs/ContactUs";
 import { Original } from "../Original/Original";
 import { Sculptures } from "../Sculptures/Sculptures";
 import { Navbar } from "../Header/Navbar/Navbar";
+import { Customized } from "../Customized/Customized";
 import {
   StyledAbout,
   StyledSection,
@@ -13,6 +14,7 @@ import {
   StyledWrapper,
 } from "./Header.styled";
 import { Link } from "react-router-dom";
+
 export function Header() {
   return (
     <>
@@ -35,6 +37,7 @@ export function Header() {
       <ArtByRaff />
       <Original />
       <Sculptures />
+      <Customized />
       <ContactUs />
     </>
   );

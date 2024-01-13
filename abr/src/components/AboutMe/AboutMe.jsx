@@ -20,10 +20,10 @@ export const AboutMe = () => {
       <Navbar />
       <StyledSection>
         <StyledWrapper>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
+          <br />
+          <br />
+          <br />
+          <br />
           <StyledInnerWrapper>
             <StyledLeftAboutMe>
               <StyledAboutMeImage
@@ -31,7 +31,6 @@ export const AboutMe = () => {
                 alt="about-image"
               />
             </StyledLeftAboutMe>
-
             <StyledRightAboutMe>
               <div>
                 <StyledHeading>About Me</StyledHeading>
@@ -43,7 +42,7 @@ export const AboutMe = () => {
                   acrylics to chalk, colored pencils and more. Thats are my
                   preferred media because they allow me to work flexibly and
                   intuitively.
-                  <br></br>
+                  <br />
                   <br />
                   My style is strongly oriented on form and color. I draw
                   inspiration from everyday life and my surroundings. It is

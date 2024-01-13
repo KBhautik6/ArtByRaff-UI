@@ -10,8 +10,7 @@ import {
   StyledHomeProductsList,
 } from "./Sculptures.styled";
 import { StyledAddtoBtn } from "../Original/Original.styled";
-
-import SvgLink from "../Original/Data";
+import { SvgLink } from "../Original/Data";
 
 import {
   StyledHomeProducts,
@@ -39,10 +38,10 @@ export const Sculptures = () => {
                 <p>ART BY RAFF</p>
               </StyledTitle>
               <StyledHeading>
-                Sculptures & <br></br>furniture
+                Sculptures & <br />
+                furniture
               </StyledHeading>
             </StyledHeadingWrapper>
-
             <StyledHomeProducts>
               <StyledInnerHomeProducts>
                 <StyledHomeProductGird>
@@ -53,7 +52,7 @@ export const Sculptures = () => {
                           <StyledProductImageLink href="https://artbyraff.com/product/untitled-4/">
                             <StyledProductImage
                               src="https://artbyraff.com/wp-content/uploads/2022/04/Layer-2-768x961.png"
-                              alt=""
+                              alt="sculpture-image"
                             />
                           </StyledProductImageLink>
                         </StyledProductImageWrapper>
@@ -69,9 +68,7 @@ export const Sculptures = () => {
                           <StyledProductCategory>
                             ACRYL, SPRAY, PLASTER
                           </StyledProductCategory>
-                          {/* <StyledAddtoBtn>
-                            {SvgLink}
-                          </StyledAddtoBtn> */}
+                          <StyledAddtoBtn>{SvgLink}</StyledAddtoBtn>
                         </StyledProductMoreInformation>
                       </StyledProductBox>
                     </StyledProductSculphturesList>
@@ -81,7 +78,7 @@ export const Sculptures = () => {
                           <StyledProductImageLink href="https://artbyraff.com/product/warhol-basquiat-table-1-of-1/">
                             <StyledProductImage
                               src="https://artbyraff.com/wp-content/uploads/2021/01/IMG_5905-768x1024.jpg"
-                              alt=""
+                              alt="sculpture-image"
                             />
                           </StyledProductImageLink>
                         </StyledProductImageWrapper>

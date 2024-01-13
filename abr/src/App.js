@@ -5,6 +5,7 @@ import { Slider } from "../src/components/Slider/Slider";
 import "../src/App.css";
 import { Route, Routes } from "react-router";
 import { AboutMe } from "./components/AboutMe/AboutMe";
+import { FullNavbar } from "./components/FullNavbar/FullNavbar";
 const App = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Header />}></Route>
           <Route path="about" element={<AboutMe />}></Route>
+          <Route path="fullnavbar" element={<FullNavbar />}></Route>
         </Routes>
       </div>
     </>

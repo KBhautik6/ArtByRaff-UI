@@ -28,8 +28,8 @@ export const ArtByRaff = () => {
                   Welcome to my page. My name is Raffaello Djordevic and I am a
                   Viennese artist. I make mostly pop-arts and mixed-media
                   pieces.
-                  <br></br>
-                  <br></br>
+                  <br />
+                  <br />
                   You can purchase original works as well as prints on my
                   homepage. I also take commissions. To commission a piece, just
                   contact me via the homepage.

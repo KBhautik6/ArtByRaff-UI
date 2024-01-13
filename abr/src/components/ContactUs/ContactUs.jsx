@@ -43,8 +43,8 @@ export const ContactUs = () => {
                     <p>COMMISSIONS</p>
                   </StyledTitle>
                   <StyledHeading>
-                    ARE YOU INTERESTED IN <br></br> PURCHASING A VERY SPECIAL
-                    <br></br> PIECE?
+                    ARE YOU INTERESTED IN <br /> PURCHASING A VERY SPECIAL
+                    <br /> PIECE?
                   </StyledHeading>
                 </StyledHeadingWrapper>
                 <StyledContactFormWrapper>

@@ -19,7 +19,7 @@ import {
   StyledSubmitBtn,
   StyledFooterRight,
   StyledFooterRightBox,
-  StyledFooterRIghtBoxWrapper,
+  StyledFooterRightBoxWrapper,
   StyledFooterDescription,
   StyledFooterDescriptionEmail,
   StyledIconContainer,
@@ -79,14 +79,14 @@ export const Footer = () => {
               </StyledFooterLeft>
               <StyledFooterRight>
                 <StyledFooterRightBox>
-                  <StyledFooterRIghtBoxWrapper>
+                  <StyledFooterRightBoxWrapper>
                     <StyledFooterDescription>
                       Raffaello Djordjevic
                     </StyledFooterDescription>
                     <StyledFooterDescriptionEmail>
                       E-Mail: raffaello@artbyraff.com
                     </StyledFooterDescriptionEmail>
-                  </StyledFooterRIghtBoxWrapper>
+                  </StyledFooterRightBoxWrapper>
                   <StyledIconContainer>
                     <StyledIconWrapper>
                       <FacebookIcon />

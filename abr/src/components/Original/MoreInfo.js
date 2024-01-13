@@ -21,7 +21,7 @@ export function MoreInfo(props) {
         <StyledProductBox>
           <StyledProductImageWrapper>
             <StyledProductImageLink href={props.dlink}>
-              <StyledProductImage src={props.dproductimage} alt="" />
+              <StyledProductImage src={props.dproductimage} alt="paint-image" />
             </StyledProductImageLink>
           </StyledProductImageWrapper>
           <StyledProductMoreInformation>

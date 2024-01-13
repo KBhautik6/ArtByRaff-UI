@@ -13,7 +13,7 @@ export const StyledCommonInput = css`
   text-align: center;
   text-transform: uppercase;
   color: #979797;
-  margin-top: 35px;
+  margin: 35px 0 0 0;
 
   &:focus {
     outline: none;
@@ -28,7 +28,7 @@ export const StyledCommonFooter = css`
   line-height: 2;
   text-align: left;
   color: #d5d5d5;
-  margin-right: 34px;
+  margin: 0 34px 0 0;
 `;
 
 export const StyledWrapper = styled.div`
@@ -130,7 +130,7 @@ export const StyledContactFormInner = styled.div`
 `;
 
 export const StyledContactForm = styled.form`
-  margin-bottom: 1.618em;
+  margin: 0 0 1.618rem 0;
 `;
 
 export const StyledContactData = styled.div`
@@ -180,7 +180,8 @@ export const StyledInputText = styled.input`
   ${StyledCommonInput};
 
   @media screen and (max-width: 767px) {
-    width: 60%;
+    width: 50%;
+    font-size: 14px;
   }
 `;
 
@@ -190,7 +191,8 @@ export const StyledInputTelephone = styled.input`
   ${StyledCommonInput};
 
   @media screen and (max-width: 767px) {
-    width: 60%;
+    width: 50%;
+    font-size: 14px;
   }
 `;
 
@@ -200,7 +202,8 @@ export const StyledInputEmail = styled.input`
   ${StyledCommonInput};
 
   @media screen and (max-width: 767px) {
-    width: 60%;
+    width: 50%;
+    font-size: 14px;
   }
 `;
 
@@ -208,11 +211,16 @@ export const StyledInputElse = styled.input`
   width: 100%;
   ${StyledCommonInput};
   text-align: left;
+
+  @media screen and (max-width: 767px) {
+    width: 90%;
+    font-size: 10px;
+  }
 `;
 
 export const StyledCheckBoxInner = styled.div`
   text-align: left;
-  margin-left: 60px;
+  margin: 0 0 60px 0;
 `;
 
 export const StyledTextInnerWrapper = styled.div`
@@ -253,8 +261,7 @@ export const StyledInputBtn = styled.button`
 
   @media screen and (max-width: 767px) {
     padding: 13px 35px;
-    margin-top: 20px;
-    margin-right: 80px;
+    margin: 20px 80px 0 0;
   }
 `;
 
@@ -274,8 +281,8 @@ export const StyledFooterInner = styled.div`
 export const StyledFooterContainer = styled.div`
   max-width: 1128px;
   width: 100%;
-  padding:0 15px;
-  margin:0 auto;
+  padding: 0 15px;
+  margin: 0 auto;
 
   @media screen and (min-width: 1200px) {
     max-width: 1140px;
@@ -303,5 +310,5 @@ export const StyledFooterMain = styled.div`
   border-bottom: 1px solid #6d6d6d;
   display: flex;
   flex-wrap: wrap;
-  margin:0 -15px;
+  margin: 0 -15px;
 `;

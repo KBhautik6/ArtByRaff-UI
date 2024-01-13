@@ -9,7 +9,7 @@ export const StyledSection = styled.section`
 `;
 
 export const StyledWrapper = styled.div`
-  background: url(https://artbyraff.com/wp-content/themes/storefront-child-theme-master/assets/images/bgPrintArt.jpg)
+  background: url("https://artbyraff.com/wp-content/themes/storefront-child-theme-master/assets/images/bgPrintArt.jpg")
     no-repeat;
   background-position: center;
   background-size: 100% auto;
@@ -56,8 +56,8 @@ export const StyledHeading = styled.div`
   letter-spacing: 19.38px;
   text-align: left;
   text-transform: uppercase;
-  padding-left: 21px;
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
+  padding: 0 0 0 21px;
   color: #4b4b4b;
   z-index: 1;
 
@@ -67,7 +67,7 @@ export const StyledHeading = styled.div`
     letter-spacing: 5.32px;
     position: relative;
     left: 20px;
-    margin-bottom: 40px;
+    margin: 0 0 40px;
   }
 `;
 
