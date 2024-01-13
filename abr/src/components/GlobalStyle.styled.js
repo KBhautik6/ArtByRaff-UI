@@ -1,6 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
 import GraphikBold from "../font/GraphikBold.otf";
-// import GraphikBold from './font/Graphik-Font-Family/GraphikBold.otf';
 import GraphikLight from "../font/GraphikLight.otf";
 import GraphikSemibold from "../font/GraphikSemibold.otf";
 import GraphikSuper from "../font/GraphikSuper.otf";

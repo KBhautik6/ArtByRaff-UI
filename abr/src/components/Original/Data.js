@@ -141,16 +141,6 @@ export const Data = [
     dsize: "80 X 100CM",
     dsvg: SvgLink,
   },
-  // {
-  //   id:"",
-  //   dlink: "",
-  //   dproductimage: "",
-  //   dimagelink: "",
-  //   dproductname: "",
-  //   dprice: "",
-  //   dproductinfo: "",
-  //   dsize: "",
-  // },
 ];
 
 export const SData = [

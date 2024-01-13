@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { GlobalStyles } from "../GlobalStyle.styled";
 
 export const StyledSection = styled.div`
-  background-color: black;
+  background-color: #161515;
   width: 100%;
   max-width: 1128px;
   margin: 0 auto;
